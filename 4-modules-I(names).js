@@ -9,4 +9,4 @@ const sumit = 'Sumit'
 
 // exports is of 'object' type
 
-module.exports = { amit, sumit }    // Exporting an object
+module.exports = { amit, sumit } // Exporting an object
