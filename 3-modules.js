@@ -12,7 +12,7 @@ const names = require('./4-modules-I(names)') // Use require to acess the export
 const sayHi = require('./5-modules-II(utils)')
 const data = require('./6-alt-method')
 
-require('./7-mind-grenade') // It works since we envoked the addValues function in the mind-grenade file
+require('./7-mind-grenade') // It works since we envoked the addValues fun in the mind-grenade file
 
 // console.log(names)
 

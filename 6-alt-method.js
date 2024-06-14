@@ -7,4 +7,5 @@ const person = {
   name: 'John',
 }
 
+// Exporting an object
 module.exports.singlePerson = person

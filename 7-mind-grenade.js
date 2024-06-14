@@ -5,4 +5,4 @@ function addValues() {
   console.log(`The sum is : ${num1 + num2}`)
 }
 
-addValues()
+addValues() // Envoking function
