@@ -9,7 +9,10 @@
 // const second = fs.readFileSync('./content/second.txt', 'utf8')
 
 // Another method
-const { readFileSync, writeFileSync } = require('fs')   // Only imported 2 functions
+const { log } = require('console')
+const { readFileSync, writeFileSync } = require('fs') // Only imported 2 functions
+
+console.log('Start')
 
 const first = readFileSync('./content/first.txt', 'utf8')
 const second = readFileSync('./content/second.txt', 'utf8')
@@ -27,5 +30,8 @@ const second = readFileSync('./content/second.txt', 'utf8')
 writeFileSync(
   './content/result-sync.txt',
   `Here is the result : ${first}, ${second}`,
-  { flag: 'a' }                                     // flag is an object
+  { flag: 'a' } // flag is an object
 )
+
+console.log('End of current task')
+console.log('Starting the next one')
