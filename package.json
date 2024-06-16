@@ -1,14 +1,14 @@
 {
-  "name": "express-tutorial",
+  "name": "node-express-tutorial",
   "version": "1.0.0",
   "description": "",
   "main": "1-intro.js",
   "scripts": {
     "start": "nodemon app.js"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "keywords": [],
   "dependencies": {
     "lodash": "^4.17.21"
   },
