@@ -14,8 +14,6 @@ const { readFile, writeFile } = require('fs')
 
 console.log('Start')
 
-// Alternatives for callbacks : Promises & Async-await
-
 readFile('./content/first.txt', 'utf8', (err, result) => {
   if (err) {
     console.log(err)
@@ -43,3 +41,5 @@ readFile('./content/first.txt', 'utf8', (err, result) => {
 })
 
 console.log('Starting the next task')
+
+// Alternatives for callbacks : Promises & Async-await
