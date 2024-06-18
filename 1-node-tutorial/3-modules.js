@@ -1,5 +1,5 @@
 // CommonJs, every file is module (by default)
-// Modules - Encapsulated Code (only share minimum)
+// Modules - Encapsulated Code (only share minimum value)
 
 // const amit = 'Amit'
 // const sumit = 'Sumit'
