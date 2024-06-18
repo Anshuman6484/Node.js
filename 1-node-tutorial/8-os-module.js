@@ -1,6 +1,7 @@
 const os = require('os')
 
 // Few os methods
+
 // 1. userInfo()
 // 2. uptime()
 // 3. type()
