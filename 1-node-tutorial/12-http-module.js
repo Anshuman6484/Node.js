@@ -4,7 +4,6 @@ const server = http.createServer((req, res) => {
   //   console.log(req)     // Gaint object
 
   // Use if-else for multiple responses
-
   if (req.url === '/') res.end('Welcome to our home page')
   else if (req.url === '/about') res.end('Welcome to our about page')
   else {
