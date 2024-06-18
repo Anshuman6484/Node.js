@@ -9,7 +9,6 @@
 // const second = fs.readFileSync('./content/second.txt', 'utf8')
 
 // Another method
-const { log } = require('console')
 const { readFileSync, writeFileSync } = require('fs') // Only imported 2 functions
 
 console.log('Start')
