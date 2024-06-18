@@ -8,4 +8,5 @@ const person = {
 }
 
 // Exporting an object
+
 module.exports.singlePerson = person
